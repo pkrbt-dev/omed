@@ -1,0 +1,5 @@
+{
+  "extends": "@omed/typescript-config/prisma.json",
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "tsup.config.ts"]
+}
