@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "lint": "eslint . --max-warnings 0"
+    "lint": "eslint . --max-warnings 0",
+    "ui": "pnpm dlx shadcn@latest"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
@@ -30,7 +31,7 @@
     "typescript": "^5.7.3"
   },
   "exports": {
-    "./globals.css": "./src/styles/globals.css",
+    "./styles/*": "./src/styles/*.css",
     "./postcss.config": "./postcss.config.mjs",
     "./lib/*": "./src/lib/*.ts",
     "./components/*": "./src/components/*.tsx",
