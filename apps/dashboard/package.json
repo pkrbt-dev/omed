@@ -1,5 +1,5 @@
 {
-  "name": "@omed/web",
+  "name": "@omed/dashboard",
   "version": "0.0.0",
   "type": "module",
   "private": true,
